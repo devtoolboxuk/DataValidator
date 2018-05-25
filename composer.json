@@ -1,17 +1,24 @@
 {
-    "name": "devtoolboxuk/DataValidator",
-    "description": "Data Validation",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "": "src/",
-            "Devtoolboxuk\\DataValidator\\": "src/"
-        }
-    },
-    "require": {
-        "ext-curl": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "4.*"
+  "name": "devtoolboxuk/DataValidator",
+  "description": "Data Validation",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "": "src/",
+      "Devtoolboxuk\\DataValidator\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Rob Wilson",
+      "email": "rob@dev-toolbox.co.uk"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  }
 }
