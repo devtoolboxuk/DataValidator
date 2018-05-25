@@ -1,0 +1,17 @@
+{
+    "name": "devtoolboxuk/DataValidator",
+    "description": "Data Validation",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "Devtoolboxuk\\DataValidator\\": "src/"
+        }
+    },
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    }
+}
