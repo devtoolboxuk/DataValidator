@@ -34,7 +34,7 @@ class ValidatorService
                 if (preg_match($this->uk_post_code_pattern, strtoupper($postcode)) !== 1) {
                     return false;
                 }
-
+                break;
             default:
                 break;
         }

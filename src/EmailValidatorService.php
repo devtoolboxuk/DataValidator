@@ -4,7 +4,7 @@ namespace Devtoolboxuk\DataValidator;
 
 final class EmailValidatorService extends ValidatorService
 {
-    public function checkDomain($email)
+    static public function checkDomain($email)
     {
         $domain_name = substr(strrchr($email, "@"), 1);
 
